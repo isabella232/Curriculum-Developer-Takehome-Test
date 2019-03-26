@@ -17,6 +17,14 @@ The section you will work on will take the average student an hour or so to work
 
 **Your Section:** We need some help with the section on the Horizontal Pod Autoscaler. This section will start with understanding the benefits of the HPA, and show the student how to use it. Later, we will show how to monitor HPA to ensure everything is running as it should. Create an introduction video and 15 minutes worth of hands on exercises that demonstrate the benefit of the horizontal pod autoscaler. Start and end wherever you want, but include some notes about what will have happened before and after your section.
 
+**Demo Environment:** 
+
+1. Create an account on Katacoda and link it to your GitHub account
+2. Clone the repo you created for Katacoda and copy the Interview1 folder in this repo to the one you cloned.
+3. This is a two node cluster (master & node01).Kubernetes is configured and ready to use on master.
+4. See below for more on how to use the files in the Katacoda environment.
+
+
 ## Choice #2 - APM Trace Search
 **Target Persona:** The person taking this course is already using the basic features of APM and wants to add trace search to their existing services.
 
@@ -24,7 +32,12 @@ The section you will work on will take the average student an hour or so to work
 
 **Your Section:** We need some help with the section on adding Trace Search and Analytics to an existing APM project. Create an introduction video and 15 minutes worth of hands on exercises that demonstrate the benefits and debugging options presented by adding Trace Search and Analytics to your APM instrumented services.
 
+**Demo Environment:** 
 
+1. Create an account on Katacoda and link it to your GitHub account
+2. Clone the repo you created for Katacoda and copy the Interview2 folder in this repo to the one you cloned.
+3. This is a single ubuntu server environment. There is no app pre-installed to instrument. It is up to you to find either a sample app somewhere online, or create your own simple app to use as a demonstration. You can use any language you prefer that we support in the APM product.
+4. See below for more on how to use the files in the Katacoda environment.
 
 ## Choice #3 - Installing with Configuration Management Tools
 **Target Persona:** The person taking this course is familiar with installing the agent on a local machine
@@ -33,4 +46,19 @@ The section you will work on will take the average student an hour or so to work
 
 **Your Section:** We need some help building out the section that discusses configuring and using the Ansible callback. Create an introduction video about the Ansible callback feature and 15 minutes worth of hands on exercises that demonstrate using it. Start and end wherever you like, but include some notes about what will have happened before and after your section.
 
+**Demo Environment:** 
 
+1. Create an account on Katacoda and link it to your GitHub account
+2. Clone the repo you created for Katacoda and copy the Interview3 folder in this repo to the one you cloned. 
+3. This is a two node environment made of ubuntu servers. Ansible is installed on the first node.
+4. See below for more on how to use the files in the Katacoda environment.
+
+# Using Katacoda
+
+Once you have setup your account, linked it to GitHub, and copied the files to your repo, you are ready to build out the content for the training exercise.
+
+* **index.json** - File that describes the Katacoda scenario. See [https://www.katacoda.com/docs/scenarios/index-json](the index.json docs) for more
+* **background.sh** - This shell script is run when you launch the scenario. You will not see the output from this script.
+* **foreground.sh** - This shell script is also run when you launch the scenario, but you WILL see the output from this script.
+* **intro.md** - Markdown document that is displayed when you first launch the scenario
+* **step[1-9].md** - all the pages that describe what you should do. take a look at [https://www.katacoda.com/docs/scenarios/markdown-syntax](the markdown docs) for ideas on other things you can do.
