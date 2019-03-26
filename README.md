@@ -57,8 +57,8 @@ The section you will work on will take the average student an hour or so to work
 
 Once you have setup your account, linked it to GitHub, and copied the files to your repo, you are ready to build out the content for the training exercise.
 
-* **index.json** - File that describes the Katacoda scenario. See [https://www.katacoda.com/docs/scenarios/index-json](the index.json docs) for more
+* **index.json** - File that describes the Katacoda scenario. See [the index.json docs](https://www.katacoda.com/docs/scenarios/index-json) for more
 * **background.sh** - This shell script is run when you launch the scenario. You will not see the output from this script.
 * **foreground.sh** - This shell script is also run when you launch the scenario, but you WILL see the output from this script.
 * **intro.md** - Markdown document that is displayed when you first launch the scenario
-* **step[1-9].md** - all the pages that describe what you should do. take a look at [https://www.katacoda.com/docs/scenarios/markdown-syntax](the markdown docs) for ideas on other things you can do.
+* **step[1-9].md** - all the pages that describe what you should do. take a look at [the markdown docs](https://www.katacoda.com/docs/scenarios/markdown-syntax) for ideas on other things you can do.
