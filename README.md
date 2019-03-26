@@ -1,6 +1,6 @@
 # Curriculum-Developer-Takehome-Test
 
-We are building out a number of courses for the Datadog Learning Center. We need your help to create a portion of one of the sections of one of three different courses. You choose which one you want to tackle. 
+We are building out a number of courses for the Datadog Learning Center. We need your help to create a portion of one of the sections of one of three different courses. You choose which one you want to tackle.
 
 In each of the three choices below, you are given:
 
@@ -13,13 +13,13 @@ The section you will work on will take the average student an hour or so to work
 
 ## Choice #1 - Kubernetes
 
-**Target Persona:** The person taking this course has already taken our introduction to monitoring Kubernetes course and needs to go deeper. They know how everything generally works and are looking forward to taking it to the next level
+**Target Persona:** The person taking this course has already taken our introduction to monitoring Kubernetes course and needs to go deeper. They know how everything generally works and are looking forward to taking it to the next level.
 
-**Course Description:** This course is going to leverage our experience at Datadog with managing and monitoring Kubernetes clusters with thousands of nodes. We will go through all the major components of the Kubernetes control plane and show how we maintain and monitor them. 
+**Course Description:** This course is going to leverage our experience at Datadog with managing and monitoring Kubernetes clusters with thousands of nodes. We will go through all the major components of the Kubernetes control plane and show how we maintain and monitor them.
 
 **Your Section:** We need some help with the section on the Horizontal Pod Autoscaler. This section will start with understanding the benefits of the HPA, and show the student how to use it. Later, we will show how to monitor HPA to ensure everything is running as it should. Create an introduction video and 15 minutes worth of hands on exercises that demonstrate the benefit of the horizontal pod autoscaler. Start and end wherever you want, but include some notes about what will have happened before and after your section.
 
-**Demo Environment:** 
+**Demo Environment:**
 
 1. Create an account on Katacoda and link it to your GitHub account
 2. Clone the repo you created for Katacoda and copy the Interview1 folder in this repo to the one you cloned.
@@ -34,7 +34,7 @@ The section you will work on will take the average student an hour or so to work
 
 **Your Section:** We need some help with the section on adding Trace Search and Analytics to an existing APM project. Create an introduction video and 15 minutes worth of hands on exercises that demonstrate the benefits and debugging options presented by adding Trace Search and Analytics to your APM instrumented services.
 
-**Demo Environment:** 
+**Demo Environment:**
 
 1. Create an account on Katacoda and link it to your GitHub account
 2. Clone the repo you created for Katacoda and copy the Interview2 folder in this repo to the one you cloned.
@@ -45,7 +45,7 @@ The section you will work on will take the average student an hour or so to work
 
 **Target Persona:** The person taking this course is familiar with installing the agent on a local machine
 
-**Course description:** This course is going to help the student get started using our integrations with chef, puppet, and ansible. 
+**Course description:** This course is going to help the student get started using our integrations with chef, puppet, and ansible.
 
 **Your Section:** We need some help building out the section that discusses configuring and using the Ansible callback. Create an introduction video about the Ansible callback feature and 15 minutes worth of hands on exercises that demonstrate using it. Start and end wherever you like, but include some notes about what will have happened before and after your section.
 
