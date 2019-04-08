@@ -65,3 +65,5 @@ Once you have setup your account, linked it to GitHub, and copied the files to y
 * **foreground.sh** - This shell script is also run when you launch the scenario, but you WILL see the output from this script.
 * **intro.md** - Markdown document that is displayed when you first launch the scenario
 * **step[1-9].md** - all the pages that describe what you should do. take a look at [the markdown docs](https://www.katacoda.com/docs/scenarios/markdown-syntax) for ideas on other things you can do.
+
+Note: the Katacoda environment should not need to be changed. If you have the content complete and feel like tweaking things, go for it, but the 15 minutes of hands on content should be the priority.
